@@ -1,0 +1,101 @@
+rank,app_id,app_name,developer,developer_link,category,category_link
+1,com.google.android.apps.subscriptions.red,Google One,Google LLC,/dev/Google+LLC/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+2,com.zhiliaoapp.musically,"TikTok - Videos, Shop & LIVE",TikTok Pte. Ltd.,/dev/TikTok+Pte.+Ltd./,Social,/stats/google-play-rankings/top_grossing/social/us
+3,com.amazon.mShop.android.shopping,Amazon Shopping,Amazon Mobile LLC,/dev/Amazon+Mobile+LLC/,Shopping,/stats/google-play-rankings/top_grossing/shopping/us
+4,com.openai.chatgpt,ChatGPT,OpenAI,/dev/OpenAI/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+5,com.wbd.stream,HBO Max: Stream TV & Movies,"WarnerMedia Global Digital Services, LLC",/dev/WarnerMedia+Global+Digital+Services%2C+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+6,com.peacocktv.peacockandroid,Peacock TV: Stream TV & Movies,Peacock TV LLC,/dev/Peacock+TV+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+7,com.spotify.music,Spotify: Music and Podcasts,Spotify AB,/dev/Spotify+AB/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+8,com.crunchyroll.crunchyroid,Crunchyroll: Anime Streaming,"Crunchyroll, LLC",/dev/Crunchyroll%2C+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+9,com.cbs.app,Paramount+,"CBS Interactive, Inc.",/dev/CBS+Interactive%2C+Inc./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+10,com.disney.disneyplus,Disney+,Disney,/dev/Disney/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+11,com.tinder,Tinder Dating App: Chat & Date,Tinder LLC,/dev/Tinder+LLC/,Dating,/stats/google-play-rankings/top_grossing/dating/us
+12,com.pandora.android,Pandora - Music & Podcasts,Pandora,/dev/Pandora/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+13,com.radio.pocketfm,Pocket FM: Audio Series,PocketFM,/dev/PocketFM/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+14,com.life360.android.safetymapd,Life360: Stay Connected & Safe,Life360,/dev/Life360/,Lifestyle,/stats/google-play-rankings/top_grossing/lifestyle/us
+15,tv.twitch.android.app,Twitch: Live Streaming,"Twitch Interactive, Inc.",/dev/Twitch+Interactive%2C+Inc./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+16,com.newleaf.app.android.victor,ReelShort - Stream Drama & TV,NewLeaf Publishing,/dev/NewLeaf+Publishing/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+17,com.linkedin.android,LinkedIn: Community & Network,LinkedIn,/dev/LinkedIn/,Business,/stats/google-play-rankings/top_grossing/business/us
+18,com.anthropic.claude,Claude by Anthropic,Anthropic PBC,/dev/Anthropic+PBC/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+19,co.hinge.app,Hinge Dating App: Match & Date,"Hinge, Inc.",/dev/Hinge%2C+Inc./,Dating,/stats/google-play-rankings/top_grossing/dating/us
+20,com.bumble.app,Bumble Dating App: Meet & Date,Bumble Holding Limited,/dev/Bumble+Holding+Limited/,Dating,/stats/google-play-rankings/top_grossing/dating/us
+21,com.microsoft.skydrive,Microsoft OneDrive,Microsoft Corporation,/dev/Microsoft+Corporation/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+22,com.discord,"Discord - Talk, Play, Hang Out",Discord Inc.,/dev/Discord+Inc./,Communication,/stats/google-play-rankings/top_grossing/communication/us
+23,com.duolingo,Duolingo: Language Lessons,Duolingo,/dev/Duolingo/,Education,/stats/google-play-rankings/top_grossing/education/us
+24,com.snapchat.android,Snapchat,Snap Inc,/dev/Snap+Inc/,Communication,/stats/google-play-rankings/top_grossing/communication/us
+25,org.telegram.messenger,Telegram,Telegram FZ-LLC,/dev/Telegram+FZ-LLC/,Communication,/stats/google-play-rankings/top_grossing/communication/us
+26,ai.x.grok,Grok - AI Chat & Video,xAI,/dev/xAI/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+27,com.grindrapp.android,Grindr - Gay Dating & Chat,Grindr LLC,/dev/Grindr+LLC/,Social,/stats/google-play-rankings/top_grossing/social/us
+28,com.amazon.avod.thirdpartyclient,Prime Video,Amazon Mobile LLC,/dev/Amazon+Mobile+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+29,com.facebook.katana,Facebook,"Meta Platforms, Inc.",/dev/Meta+Platforms%2C+Inc./,Social,/stats/google-play-rankings/top_grossing/social/us
+30,com.storymatrix.drama,DramaBox - Stream Drama Shorts,STORYMATRIX,/dev/STORYMATRIX/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+31,com.bamnetworks.mobile.android.gameday.atbat,MLB,"MLB Advanced Media, L.P.",/dev/MLB+Advanced+Media%2C+L.P./,Sports,/stats/google-play-rankings/top_grossing/sports/us
+32,com.canva.editor,Canva: AI Photo & Video Editor,Canva,/dev/Canva/,Art & Design,/stats/google-play-rankings/top_grossing/art_design/us
+33,com.gc.teammanager,GameChanger,GameChanger Media,/dev/GameChanger+Media/,Sports,/stats/google-play-rankings/top_grossing/sports/us
+34,com.cbs.ott,Paramount+,"CBS Interactive, Inc.",/dev/CBS+Interactive%2C+Inc./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+35,com.lemon.lvoverseas,CapCut - Video Editor,Bytedance Pte. Ltd.,/dev/Bytedance+Pte.+Ltd./,Video Players & Editors,/stats/google-play-rankings/top_grossing/media_video/us
+36,air.com.vudu.air.DownloaderTablet,Fandango at Home: Movies & TV,Fandango at Home,/dev/Fandango+at+Home/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+37,com.instagram.android,Instagram,Instagram,/dev/Instagram/,Social,/stats/google-play-rankings/top_grossing/social/us
+38,com.fitbit.FitbitMobile,Fitbit,Google LLC,/dev/Google+LLC/,Health & Fitness,/stats/google-play-rankings/top_grossing/health_fitness/us
+39,com.dropbox.android,Dropbox: Secure Cloud Storage,"Dropbox, Inc.",/dev/Dropbox%2C+Inc./,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+40,com.hualai,Wyze - Never Wonder,Wyze Labs Inc.,/dev/Wyze+Labs+Inc./,Lifestyle,/stats/google-play-rankings/top_grossing/lifestyle/us
+41,sg.bigo.live,Bigo Live - Live Streaming App,Bigo Technology Pte. Ltd.,/dev/Bigo+Technology+Pte.+Ltd./,Social,/stats/google-play-rankings/top_grossing/social/us
+42,com.newreading.goodreels,GoodShort - Short Dramas Hub,GoodNovel,/dev/GoodNovel/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+43,com.adobe.reader,Adobe Acrobat Reader: Edit PDF,Adobe,/dev/Adobe/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+44,com.apple.android.music,Apple Music,Apple,/dev/Apple/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+45,onxmaps.hunt,onX Hunt: Offline Hunting Maps,onXmaps,/dev/onXmaps/,Sports,/stats/google-play-rankings/top_grossing/sports/us
+46,com.nordvpn.android,NordVPN – fast VPN for privacy,Nord Security,/dev/Nord+Security/,Tools,/stats/google-play-rankings/top_grossing/tools/us
+47,com.audible.application,Audible: Audiobooks & Podcasts,"Audible, Inc.",/dev/Audible%2C+Inc./,Books & Reference,/stats/google-play-rankings/top_grossing/books_reference/us
+48,com.myfitnesspal.android,MyFitnessPal: Calorie Counter,"MyFitnessPal, Inc.",/dev/MyFitnessPal%2C+Inc./,Health & Fitness,/stats/google-play-rankings/top_grossing/health_fitness/us
+49,com.netshort.abroad,NetShort - Popular Dramas & TV,NETSTORY PTE. LTD.,/dev/NETSTORY+PTE.+LTD./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+50,com.discovery.discoveryplus.mobile,discovery+ | Stream TV Shows,Discovery Communications LLC,/dev/Discovery+Communications+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+51,com.naver.linewebtoon,"WEBTOON: Manga, Comics, Manhwa",NAVER WEBTOON,/dev/NAVER+WEBTOON/,Comics,/stats/google-play-rankings/top_grossing/comics/us
+52,com.sling,Sling: Live TV + Freestream,Sling TV,/dev/Sling+TV/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+53,cn.danatech.xingseus,PictureThis - Plant Identifier,Glority Global Group Ltd.,/dev/Glority+Global+Group+Ltd./,Education,/stats/google-play-rankings/top_grossing/education/us
+54,com.hulu.plus,Hulu: Stream TV shows & movies,Disney,/dev/Disney/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+55,com.dramawave.app,DramaWave - Dramas & Reels,SKYWORK AI PTE.LTD.,/dev/SKYWORK+AI+PTE.LTD./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+56,com.symantec.mobilesecurity,Norton360 Antivirus & Security,NortonMobile,/dev/NortonMobile/,Tools,/stats/google-play-rankings/top_grossing/tools/us
+57,com.twitter.android,X,X Corp.,/dev/X+Corp./,News & Magazines,/stats/google-play-rankings/top_grossing/news_magazines/us
+58,com.apple.atve.androidtv.appletv,"Apple TV: Shows, Movies & More",Apple,/dev/Apple/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+59,com.bydeluxe.d3.android.program.starz,STARZ,"Starz Entertainment, LLC",/dev/Starz+Entertainment%2C+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+60,com.enflick.android.TextNow,TextNow: Call + Text Unlimited,"TextNow, Inc.",/dev/TextNow%2C+Inc./,Communication,/stats/google-play-rankings/top_grossing/communication/us
+61,com.espn.score_center,ESPN,Disney,/dev/Disney/,Sports,/stats/google-play-rankings/top_grossing/sports/us
+62,com.newsclapper.video,"Clapper: Video, Live, Chat",Clapper Media Group Inc.,/dev/Clapper+Media+Group+Inc./,Social,/stats/google-play-rankings/top_grossing/social/us
+63,com.vidangel.thechosen,Angel: Watch Movies & TV Shows,"Angel Studios, Inc.",/dev/Angel+Studios%2C+Inc./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+64,com.univision.prendetv,"ViX:TV, Deportes y Noticias",Univision Communications Inc.,/dev/Univision+Communications+Inc./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+65,com.suno.android,Suno - AI Music & Songs Maker,"Suno, Inc",/dev/Suno%2C+Inc/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+66,com.sgiggle.production,"Tango: Live Stream, Video Chat",Tango,/dev/Tango/,Social,/stats/google-play-rankings/top_grossing/social/us
+67,com.cricut.designspace,Design Space: DIY with Cricut,Cricut,/dev/Cricut/,Lifestyle,/stats/google-play-rankings/top_grossing/lifestyle/us
+68,com.read.goodnovel,"GoodNovel - Booktok, Stories",GoodNovel,/dev/GoodNovel/,Books & Reference,/stats/google-play-rankings/top_grossing/books_reference/us
+69,com.hily.app,Hily Dating app: Meet & Date,Hily Corp.,/dev/Hily+Corp./,Dating,/stats/google-play-rankings/top_grossing/dating/us
+70,co.feeld,Feeld: Open-Minded Dating App,Feeld Ltd.,/dev/Feeld+Ltd./,Dating,/stats/google-play-rankings/top_grossing/dating/us
+71,com.ancestry.android.apps.ancestry,Ancestry: Family History & DNA,Ancestry.com,/dev/Ancestry.com/,Books & Reference,/stats/google-play-rankings/top_grossing/books_reference/us
+72,com.alltrails.alltrails,"AllTrails: Hike, Bike & Run","AllTrails, LLC",/dev/AllTrails%2C+LLC/,Health & Fitness,/stats/google-play-rankings/top_grossing/health_fitness/us
+73,com.sixdays.truckerpath,Trucker Path: Truck GPS & Fuel,Trucker Path,/dev/Trucker+Path/,Maps & Navigation,/stats/google-play-rankings/top_grossing/transportation/us
+74,com.viacom.betplus,BET+,BET Networks,/dev/BET+Networks/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+75,com.amazon.amazonvideo.livingroom,Prime Video,Amazon Mobile LLC,/dev/Amazon+Mobile+LLC/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+76,com.pof.android,Plenty of Fish : Dating App,Plentyoffish Media ULC,/dev/Plentyoffish+Media+ULC/,Dating,/stats/google-play-rankings/top_grossing/dating/us
+77,com.gotv.nflgamecenter.us.lite,NFL,NFL Enterprises LLC,/dev/NFL+Enterprises+LLC/,Sports,/stats/google-play-rankings/top_grossing/sports/us
+78,video.chat.joi,Joi - Live Video Chat,VLMedia A.Ş.,/dev/VLMedia+A.%C5%9E./,Social,/stats/google-play-rankings/top_grossing/social/us
+79,com.hkfuliao.chamet,Chamet - Live Chat & Party,Chamet Team,/dev/Chamet+Team/,Social,/stats/google-play-rankings/top_grossing/social/us
+80,ai.socialapps.speakmaster,PolyBuzz: Chat with AI Friends,CLOUD WHALE INTERACTIVE TECHNOLOGY LLC.,/dev/CLOUD+WHALE+INTERACTIVE+TECHNOLOGY+LLC./,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+81,com.storage.androidcleaner,Cleanup: Phone Storage Cleaner,Deep Flow Apps,/dev/Deep+Flow+Apps/,Tools,/stats/google-play-rankings/top_grossing/tools/us
+82,com.getpure.pure,PURE: Anonymous Dating & Chat,Online Classifieds AG,/dev/Online+Classifieds+AG/,Dating,/stats/google-play-rankings/top_grossing/dating/us
+83,com.soundcloud.android,SoundCloud: The Music You Love,SoundCloud,/dev/SoundCloud/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+84,com.tapastic,Tapas – Comics and Novels,Tapas Entertainment Inc.,/dev/Tapas+Entertainment+Inc./,Comics,/stats/google-play-rankings/top_grossing/comics/us
+85,com.strava,"Strava: Run, Bike, Walk",Strava Inc.,/dev/Strava+Inc./,Health & Fitness,/stats/google-play-rankings/top_grossing/health_fitness/us
+86,com.viki.android,Viki: Asian Dramas & Movies,"Viki, Inc",/dev/Viki%2C+Inc/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+87,com.match.android.matchmobile,Match Dating App : Chat & Meet,"Match Group Americas, LLC",/dev/Match+Group+Americas%2C+LLC/,Dating,/stats/google-play-rankings/top_grossing/dating/us
+88,com.finch.finch,Finch: Self-Care Pet,Finch Care Public Benefit Corporation,/dev/Finch+Care+Public+Benefit+Corporation/,Health & Fitness,/stats/google-play-rankings/top_grossing/health_fitness/us
+89,com.microsoft.office.officehubrow,Microsoft 365 Copilot,Microsoft Corporation,/dev/Microsoft+Corporation/,Productivity,/stats/google-play-rankings/top_grossing/productivity/us
+90,com.Beauchamp.Messenger.external,Chai: Chat AI Platform,Chai Research,/dev/Chai+Research/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+91,com.nytimes.android,NYTimes: US and Global News,The New York Times Company,/dev/The+New+York+Times+Company/,News & Magazines,/stats/google-play-rankings/top_grossing/news_magazines/us
+92,com.takimi.android,Taimi: LGBTQ+ Dating & Meet Up,Social Impact Inc.,/dev/Social+Impact+Inc./,Social,/stats/google-play-rankings/top_grossing/social/us
+93,com.thezeusnetwork.www,Zeus,The Zeus Network,/dev/The+Zeus+Network/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+94,com.iqiyi.i18n,"iQIYI - Drama, Anime, Show",iQIYI,/dev/iQIYI/,Entertainment,/stats/google-play-rankings/top_grossing/entertainment/us
+95,com.amazon.mp3,Amazon Music: Songs & Podcasts,Amazon Mobile LLC,/dev/Amazon+Mobile+LLC/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+96,ai.storage.cleaner.app,AI Cleaner - Phone Cleaner,"GRIMLAX TRADE, S.L.",/dev/GRIMLAX+TRADE%2C+S.L./,Tools,/stats/google-play-rankings/top_grossing/tools/us
+97,com.aspiro.tidal,TIDAL Music: HiFi sound,TIDAL,/dev/TIDAL/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
+98,com.smartaddx.vicohome,VicoHome: Smart Home Camera,VicoTech,/dev/VicoTech/,Video Players & Editors,/stats/google-play-rankings/top_grossing/media_video/us
+99,com.antivirus,AVG AntiVirus & Security,AVG Mobile,/dev/AVG+Mobile/,Tools,/stats/google-play-rankings/top_grossing/tools/us
+100,com.sirius,"SiriusXM: Music, Sports & News",SiriusXM,/dev/SiriusXM/,Music & Audio,/stats/google-play-rankings/top_grossing/music_audio/us
