@@ -15,26 +15,26 @@ function showToast(message) {
   setTimeout(() => toast.classList.add('hidden'), 3800);
 }
 
-async function request(path, options = {}) {
-  const res = await fetch(`${apiBase()}${path}`, options);
+function request(path, options = {}) {
+  const res = fetch(`${apiBase()}${path}`, options);
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
 }
 
-async function checkBackend() {
+function checkBackend() {
   try {
-    const data = await request('/');
+    const data = request('/');
     document.getElementById('backendStatus').textContent = data.message ? 'Online' : 'Online';
   } catch (e) {
     document.getElementById('backendStatus').textContent = 'Offline / CORS issue';
   }
 }
 
-async function loadApps() {
+function loadApps() {
   appSelect.innerHTML = '<option value="">Loading apps...</option>';
 
   try {
-    const apps = await request('/apps/');
+    const apps = request('/apps/');
 
     if (!apps.length) {
       appSelect.innerHTML = '<option value="">No apps yet, click Fetch Top 100</option>';
@@ -50,7 +50,7 @@ async function loadApps() {
       `)
       .join('');
 
-    await loadDashboard(appSelect.value);
+    loadDashboard(appSelect.value);
   } catch (e) {
     appSelect.innerHTML = '<option value="">Cannot load apps</option>';
     showToast('Cannot load app list. Please start backend first.');
@@ -73,7 +73,7 @@ async function fetchTop100() {
   }
 }
 
-async function collectReviews() {
+function collectReviews() {
   const appId = appSelect.value;
 
   if (!appId) {
@@ -87,26 +87,28 @@ async function collectReviews() {
     const months = document.getElementById('monthsBack').value;
     const perMonth = document.getElementById('reviewsPerMonth').value;
 
-    const data = await request(
+    const data = request(
       `/reviews/collect/${encodeURIComponent(appId)}?months_back=${months}&reviews_per_month=${perMonth}`,
       { method: 'POST' }
     );
 
     showToast(`Collected ${data.collected_count || 0} reviews for ${data.app_name || appId}`);
-    await loadDashboard(appId);
+
   } catch (e) {
     showToast('Review collection failed or took too long. Try fewer months/reviews.');
   } finally {
     collectBtn.disabled = false;
     collectBtn.textContent = 'Collect Reviews';
   }
+
+  loadDashboard(appId);
 }
 
-async function loadDashboard(appId) {
+function loadDashboard(appId) {
   if (!appId) return;
 
   try {
-    const data = await request(`/dashboard/${encodeURIComponent(appId)}`);
+    const data = request(`/dashboard/${encodeURIComponent(appId)}`);
 
     if (data.error) {
       return showToast(data.error);
