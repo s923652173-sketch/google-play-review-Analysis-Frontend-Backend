@@ -79,6 +79,7 @@ def collect_reviews_from_google_play(
 
     monthly_counts = defaultdict(int)
     collected_reviews = []
+    all_fetched_reviews = []
 
     continuation_token = None
     batch_count = 0
@@ -95,6 +96,10 @@ def collect_reviews_from_google_play(
             continuation_token=continuation_token
         )
 
+        print("APP:", app_package_name)
+        print("BATCH:", batch_count)
+        print("RESULT COUNT:", len(result))
+        
         if not result:
             break
 
@@ -102,6 +107,18 @@ def collect_reviews_from_google_play(
 
         for item in result:
             review_date = item.get("at")
+
+            if not review_date:
+               continue
+
+            all_fetched_reviews.append({
+               "user_name": item.get("userName"),
+               "content": item.get("content"),
+               "score": item.get("score"),
+               "review_date": review_date
+             })
+
+            month_key = get_month_key(review_date)
 
             if not review_date:
                 continue
@@ -141,4 +158,8 @@ def collect_reviews_from_google_play(
         if continuation_token is None:
             break
 
-    return collected_reviews
+    if collected_reviews:
+        print("FINAL REVIEWS:", len(collected_reviews))    
+        return collected_reviews
+
+    return all_fetched_reviews[:months_back * reviews_per_month] 

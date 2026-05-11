@@ -25,7 +25,9 @@ def get_dashboard_data(app_id: str):
         return {"error": "App not found"}
 
     app_name = app_row.iloc[0]["app_name"]
-
+    app_reviews_df = reviews_df[reviews_df["app_id"] == app_id]
+    print("DASHBOARD APP REVIEWS:", len(app_reviews_df))
+    
     trend = get_monthly_sentiment_trend(
         reviews_df=reviews_df,
         app_id=app_id,
@@ -46,6 +48,9 @@ def get_dashboard_data(app_id: str):
     return {
         "app_id": app_id,
         "app_name": app_name,
+        "total_reviews": int(len(app_reviews_df)),
+        "positive": int((app_reviews_df["sentiment_label"] == "positive").sum()) if not app_reviews_df.empty else 0,
+        "negative": int((app_reviews_df["sentiment_label"] == "negative").sum()) if not app_reviews_df.empty else 0,
         "trend_last_12_months": trend,
         "sampled_reviews_last_28_days": sampled_reviews,
         "recommendation": recommendation_result,

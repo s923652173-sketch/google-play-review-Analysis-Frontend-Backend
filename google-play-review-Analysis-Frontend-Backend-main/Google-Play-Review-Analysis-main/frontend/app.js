@@ -15,10 +15,20 @@ function showToast(message) {
   setTimeout(() => toast.classList.add('hidden'), 3800);
 }
 
-function request(path, options = {}) {
-  const res = fetch(`${apiBase()}${path}`, options);
-  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
-  return res.json();
+async function request(path, options = {}) {
+    const url = `${apiBase()}${path}`;
+    console.log("REQUEST URL:", url);
+
+    const res = await fetch(url, options);
+    console.log("RESPONSE:", res.status, res.statusText);
+
+    if (!res.ok) {
+        const text = await res.text();
+        console.error("RESPONSE BODY:", text);
+        throw new Error(`${res.status} ${res.statusText}`);
+    }
+
+    return await res.json();
 }
 
 function checkBackend() {
@@ -30,11 +40,14 @@ function checkBackend() {
   }
 }
 
-function loadApps() {
+async function loadApps() {
   appSelect.innerHTML = '<option value="">Loading apps...</option>';
 
   try {
-    const apps = request('/apps/');
+    const response = await request('/apps/');
+    console.log("APPS RESPONSE:", response);
+
+    const apps = response.apps || response;
 
     if (!apps.length) {
       appSelect.innerHTML = '<option value="">No apps yet, click Fetch Top 100</option>';
@@ -52,6 +65,7 @@ function loadApps() {
 
     loadDashboard(appSelect.value);
   } catch (e) {
+    console.error("LOAD APPS ERROR:", e);
     appSelect.innerHTML = '<option value="">Cannot load apps</option>';
     showToast('Cannot load app list. Please start backend first.');
   }
@@ -104,11 +118,11 @@ function collectReviews() {
   loadDashboard(appId);
 }
 
-function loadDashboard(appId) {
+async function loadDashboard(appId) {
   if (!appId) return;
 
   try {
-    const data = request(`/dashboard/${encodeURIComponent(appId)}`);
+    const data = await request(`/dashboard/${encodeURIComponent(appId)}`);
 
     if (data.error) {
       return showToast(data.error);
@@ -121,11 +135,14 @@ function loadDashboard(appId) {
 }
 
 function renderDashboard(data) {
+
+  console.log("DASHBOARD DATA:", data);
+
   const trend = data.trend_last_12_months || [];
 
-  const totalPositive = trend.reduce((s, m) => s + Number(m.positive_count || 0), 0);
-  const totalNegative = trend.reduce((s, m) => s + Number(m.negative_count || 0), 0);
-  const total = totalPositive + totalNegative;
+  const total = Number(data.total_reviews || 0);
+  const totalPositive = Number(data.positive || 0);
+  const totalNegative = Number(data.negative || 0);
 
   document.getElementById('currentApp').textContent = data.app_name || '-';
   document.getElementById('totalReviews').textContent = total;

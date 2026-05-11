@@ -48,7 +48,15 @@ def read_csv(path: str) -> pd.DataFrame:
 
 def save_csv(df: pd.DataFrame, path: str):
     ensure_data_files()
-    df.to_csv(path, index=False)
+
+    df.to_csv(
+        path,
+        index=False,
+        encoding="utf-8-sig"
+    )
+
+    print(f"SAVED CSV: {path}")
+    print(f"TOTAL ROWS: {len(df)}")
 
 
 def append_csv(new_df: pd.DataFrame, path: str):

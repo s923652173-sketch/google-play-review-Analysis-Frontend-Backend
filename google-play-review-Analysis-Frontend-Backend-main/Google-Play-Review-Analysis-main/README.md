@@ -226,4 +226,4 @@ The system evaluates application quality using:
 
 ## 13. License
 
-This project is for academic use only.
+This project is for academic use only. Environment variables are stored in a .env file (not included for security reasons).

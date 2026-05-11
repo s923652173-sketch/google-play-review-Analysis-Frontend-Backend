@@ -79,8 +79,8 @@ def collect_reviews(
         "app_name": app_name,
         "months_back": months_back,
         "reviews_per_month": reviews_per_month,
-        "collected_count": len(new_reviews_df),
-        "total_saved_count": len(combined_df[combined_df["app_id"] == app_id])
+        "collected_count": len(rows),
+        "total_saved_count": len(combined_df)
     }
 
 
