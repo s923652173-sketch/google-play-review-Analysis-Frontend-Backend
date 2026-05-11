@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pandas
+numpy
+google-play-scraper
+openai
+python-dotenv
+transformers
+torch
+requests
+beautifulsoup4

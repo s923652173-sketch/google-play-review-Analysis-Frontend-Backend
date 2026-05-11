@@ -1,0 +1,65 @@
+app_id,generated_date,recommendation
+com.google.android.apps.subscriptions.red,2026-05-05,"No recent review samples are available, so no recommendation can be generated."
+com.google.android.apps.subscriptions.red,2026-05-05,"Here are the main product improvement opportunities from the recent reviews:
+
+**1) Fix storage/accounting confusion**
+- Users are unclear why device storage is “full” despite paying for Google One.
+- Improve in-app education on what Google One covers vs. phone storage, SD card storage, and app update storage.
+- Add a clearer storage breakdown and “why is my phone full?” troubleshooting flow.
+
+**2) Improve backup reliability and speed**
+- Repeated complaints mention backups hanging, taking days, or behaving inconsistently on the same Wi‑Fi.
+- Prioritize backup stability, progress visibility, retry logic, and clearer error states.
+- Add a backup status page with estimated time, last successful sync, and reasons for delays.
+
+**3) Rework storage plans**
+- Users want more flexible tiers, especially mid-range options between free and 2 TB.
+- Consider adding 100 GB / 200 GB / 500 GB / 1 TB plans, or region-specific pricing.
+- Make plan recommendations based on actual usage to reduce overpaying and churn.
+
+**4) Improve billing, receipts, and refunds**
+- Users struggle to find receipts, report billing issues, and understand cancellations/refunds.
+- Streamline invoice delivery, order visibility, and self-serve refund/downgrade flows.
+- Show clear renewal dates and charge timing to avoid surprise debits.
+
+**5) Restore/replace support access**
+- Loss of phone support is a visible frustration.
+- Offer stronger in-app support options: live chat, guided help, and faster escalation for billing/storage issues.
+
+**Priority actions for the product team**
+1. Fix storage explanation and device-vs-cloud messaging.
+2. Stabilize backup performance and add better status tracking.
+3. Introduce more flexible pricing tiers.
+4. Simplify billing, receipts, and refund handling.
+5. Expand support channels for urgent issues."
+com.wbd.stream,2026-05-05,"No recent review samples are available, so no recommendation can be generated."
+com.wbd.stream,2026-05-05,"Here are the main product improvement opportunities from the recent reviews:
+
+### Main user pain points
+- **Ad experience is the biggest frustration**: users report too many ad breaks, repetitive ad creatives, and ads interrupting short episodes too aggressively.
+- **Playback reliability issues**: some users see glitches such as jumping back to earlier scenes, rewatching ads, or inconsistent live-stream timing/data.
+- **Video/audio quality concerns**: complaints include poor resolution, weak sound quality, and lack of surround sound support.
+- **Value perception is weak**: several users feel the subscription is expensive relative to content variety and ad load.
+- **Platform/device limitations**: casting issues, browser restrictions, and support for older app versions are causing dissatisfaction.
+
+### Repeated complaints
+- Excessive ads in the basic plan
+- App instability during playback
+- Low quality streaming experience for a premium-priced service
+- Limited content appeal for some audiences
+- Localization/accessibility gaps, especially around language support and browser viewing
+
+### Possible product improvements
+- **Reduce ad frequency on short-form content** and make ad pacing smarter based on episode length.
+- **Improve playback state handling** so users don’t lose progress or rewatch ads after glitches.
+- **Upgrade stream quality consistency** with better resolution, audio, and surround sound support.
+- **Fix live content metadata sync** for sports and other live events.
+- **Expand language and subtitle support** and improve browser/device parity.
+- **Improve casting reliability** and device compatibility.
+
+### Priority actions for the product team
+1. **Stabilize playback and ad resume logic**
+2. **Rework ad load and ad frequency rules**
+3. **Improve stream quality and audio support**
+4. **Fix live-event data synchronization**
+5. **Strengthen casting/browser experience and localization**"

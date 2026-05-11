@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Play Review Analysis Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="logo">▶</div>
+        <div>
+          <h1>App Review AI</h1>
+          <p>Google Play Top 100 Analysis</p>
+        </div>
+      </div>
+
+      <button class="nav-item active">☰ Dashboard</button>
+      <button class="nav-item">▣ Apps</button>
+      <button class="nav-item">◇ Review Samples</button>
+      <button class="nav-item">★ AI Recommendation</button>
+
+      <div class="side-card">
+        <span class="label">Backend</span>
+        <strong id="backendStatus">Checking...</strong>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <div>
+          <h2>Google Top 100 App User Review Analysis</h2>
+        </div>
+        <div class="actions">
+          <button id="fetchAppsBtn">Fetch Top 100</button>
+          <button id="collectBtn" class="primary">Collect Reviews</button>
+        </div>
+      </header>
+
+      <section class="controls card">
+        <div>
+          <label for="appSelect">Select App</label>
+          <select id="appSelect"><option value="">Loading apps...</option></select>
+        </div>
+        <div>
+          <label for="monthsBack">Months Back</label>
+          <input id="monthsBack" type="number" value="12" min="1" max="24" />
+        </div>
+        <div>
+          <label for="reviewsPerMonth">Reviews / Month</label>
+          <input id="reviewsPerMonth" type="number" value="50" min="5" max="200" />
+        </div>
+      </section>
+
+      <section class="stats-grid">
+        <div class="stat card"><span>Total Reviews</span><strong id="totalReviews">-</strong><small>12-month analysed count</small></div>
+        <div class="stat card"><span>Positive</span><strong id="positiveReviews">-</strong><small>BERT positive labels</small></div>
+        <div class="stat card"><span>Negative</span><strong id="negativeReviews">-</strong><small>BERT negative labels</small></div>
+        <div class="stat card"><span>Positive Rate</span><strong id="positiveRate">-</strong><small>Overall satisfaction indicator</small></div>
+      </section>
+
+      <section class="content-grid">
+        <div class="card chart-card">
+          <div class="section-title">
+            <h3>12-Month Sentiment Trend</h3>
+            <span id="currentApp">No app selected</span>
+          </div>
+          <canvas id="trendChart"></canvas>
+        </div>
+
+        <div class="card recommendation-card">
+          <div class="section-title">
+            <h3>AI Product Recommendation</h3>
+            <span id="cacheBadge">LLM</span>
+          </div>
+          <p id="recommendationText">Select an app to generate the improvement recommendation.</p>
+        </div>
+      </section>
+
+      <section class="card reviews-card">
+        <div class="section-title">
+          <h3>Recent 28-Day Review Samples</h3>
+          <span>Top 10 weighted samples</span>
+        </div>
+        <div id="reviewsList" class="reviews-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <div id="toast" class="toast hidden"></div>
+  <script src="app.js"></script>
+</body>
+</html>
